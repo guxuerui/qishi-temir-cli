@@ -1,0 +1,21 @@
+{
+  "name": "hi-temir",
+  "license": "MIT",
+  "scripts": {
+    "dev": "temir src/main.ts",
+    "build": "temir build src/main.ts",
+    "start": "pnpm run build && node dist/main.js"
+  },
+  "dependencies": {
+    "@temir/cli": "^0.0.19",
+    "@temir/core": "^0.0.19",
+    "@temir/link": "^0.0.19",
+    "vue": "^3.2.38"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.26.3",
+    "@types/node": "^18.7.15",
+    "eslint": "^8.23.0",
+    "typescript": "^4.8.2"
+  }
+}
